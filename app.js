@@ -17,3 +17,14 @@ if (plantArea >= 0.5 * gardenArea && plantArea <= 0.8 * gardenArea)
  
 if (plantArea < 0.5 * gardenArea)
  {console.log("Plant")}
+//  Part 2
+ /*prediciton of plant growth after number of weeks */
+ console.log(
+    'Plant growth after the first week is ${plantsWeekOne * plantArea}'
+ )
+console.log(
+    `Plant growth after the second week is ${plantsWeekTwo * plantArea}`
+ )
+console.log(
+    `Plant growth after the third week is ${plantsWeekThree * plantArea}`
+)
